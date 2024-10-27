@@ -1,2 +1,6 @@
-# web-330
-Repository for Web330 class assignments.
+# WEB 330 Enterprise JavaScript II
+## Contributors
+<ul>
+  <li>Richard Krasso</li>
+  <li>Sara George</li>
+</ul>
