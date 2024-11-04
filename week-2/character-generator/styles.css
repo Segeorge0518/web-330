@@ -8,4 +8,92 @@
   Filename:
 */
 
-/* Your CSS goes here */
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #071f25;
+}
+
+#mainContainer {
+  text-align: center;
+}
+
+#mainContainer h1 {
+  color: #2beded;
+  text-shadow: 1px 1px #bdfde8;
+  font-size: 40px;
+}
+
+#banner {
+  width: 100%;
+  background-color: #0d0f10;
+  border-bottom: #2beded dashed 1px;
+  padding: 2em;
+}
+
+#mainContainer h2 {
+  color: #bdfde8;
+  margin: 3em 0em .5em 0em;
+  text-shadow: .5px .5px #0d0f10;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#characterForm {
+  display: inline-block;
+  color: #2beded;
+}
+
+#characterForm label {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 2em 0px .5em 0px;
+}
+
+#characterForm input {
+  background-color: #bdfde8;
+  color: #0d0f10;
+  border: black solid 2px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+#characterForm select {
+  background-color: #bdfde8;
+  color: #0d0f10;
+  border: black solid 2px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+#generateHero {
+  margin: 2em 0em;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: #0d0f10;
+  color: #2beded;
+  font-weight: bold;
+  border: dashed #2beded 1px;
+}
+
+#generateHero:hover {
+  background-color: #2beded;
+  color: #0d0f10;
+  border: dashed #0d0f10 1px;
+}
+
+#characterOutput {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  display: none;
+  color: aquamarine;
+  padding: 1.5em 1em;
+  background-color: #0d0f10;
+  border-radius: 20px;
+  text-align: center;
+}
