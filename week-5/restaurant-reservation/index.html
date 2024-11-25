@@ -6,20 +6,28 @@
       Chapter 2
       Programming Assignment
 
-      Author:
-      Date:
-      Filename:
+      Author: Sara George
+      Date: 11/22/2024
+      Filename: index.html
     -->
     <title>Table Reservation</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
+    <h1> Welcome to Giordano's</h1>
+    <h3> Fill out the form bellow for a reservation. </h3>
     <div class="form-container">
       <form id="reservationForm">
-        <label for="name">Name:</label><br />
-        <input type="text" id="name" name="name" /><br />
-        <label for="tableNumber">Table Number:</label><br />
-        <input type="number" id="tableNumber" name="tableNumber" /><br />
+        <div id="nameInput">
+          <label for="name" id="">Name:</label><br />
+          <input type="text" id="name" name="name" /><br />
+        </div>
+
+        <div id="tableNumberInput">
+          <label for="tableNumber">Table Number:</label><br />
+          <input type="number" id="tableNumber" name="tableNumber" /><br />
+        </div>
+
         <input type="submit" value="Reserve" />
       </form>
       <p id="message"></p>
