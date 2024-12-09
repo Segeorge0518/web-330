@@ -6,18 +6,33 @@
     Chapter 3
     Programming Assignment
 
-    Author:
-    Date:
-    Filename:
+    Author: Sara George
+    Date: 12/08/2024
+    Filename: index.html
   -->
     <title>Chef Dashboard</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <div id="error" hidden></div>
-    <div id="chef1" class="chef-container"></div>
-    <div id="chef2" class="chef-container"></div>
-    <div id="chef3" class="chef-container"></div>
+    <h1>Melrose's Garden</h1>
+    <h2> Our Chefs</h2>
+    <div id="chefdisplay">
+      <div class="error" hidden></div>
+      <div id="chef1" class="chef-container">
+        <p id="chef1-info"></p>
+        <p class="error" id="chef1-error"></p>
+      </div>
+      <div id="chef2" class="chef-container">
+        <p id="chef2-info"></p>
+        <p class="error" id="chef2-error"></p>
+      </div>
+      <div id="chef3" class="chef-container">
+        <p id="chef3-info"></p>
+        <p class="error" id="chef3-error"></p>
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>

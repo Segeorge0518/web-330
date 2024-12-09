@@ -3,9 +3,64 @@
   Chapter 3
   Programming Assignment
 
-  Author:
-  Date:
-  Filename:
+    Author: Sara George
+    Date: 12/08/2024
+  Filename: styles.css
 */
 
-/* Add your CSS styles here */
+/*CSS Reset*/
+
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+  background: #7d9591;
+}
+
+#chefdisplay {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  padding: 1em;
+  background: #293a40;
+  color: #aed3b4;
+  border-bottom: 5px solid #141f23;
+}
+
+h2 {
+  text-align: center;
+  padding: 1em 0 .5em 0;
+  color: #18202d;
+}
+
+#chef1 {
+  padding: .5em;
+  color: #1a3539;
+  width: 70%;
+  display: inline-block;
+  border-top: solid #141f23 1.5px;
+  border-left: solid #141f23 1.5px;
+  border-right: solid #141f23 1.5px;
+}
+
+#chef2 {
+  padding: .5em;
+  color: #1a3539;
+  width: 70%;
+  display: inline-block;
+  border-top: solid #141f23 1.5px;
+  border-left: solid #141f23 1.5px;
+  border-right: solid #141f23 1.5px;
+}
+
+#chef3 {
+  padding: .5em;
+  color: #1a3539;
+  width: 70%;
+  display: inline-block;
+  border: solid #141f23 1.5px;
+}

@@ -3,9 +3,9 @@
   Chapter 3
   Programming Assignment
 
-  Author:
-  Date:
-  Filename: chefs.js
+    Author: Sara George
+    Date: 12/08/2024
+  Filename: script.js
 */
 
 "use strict";
@@ -14,7 +14,7 @@
 let chefs = [
   { name: "Gordon Ramsay", specialty: "Italian Cuisine", weakness: "Desserts", location: "London" },
   { name: "Julia Child", specialty: "French Cuisine", weakness: "Baking", location: "Paris" },
-  { name: "Wolfgang Puck", specialty: "Fusion Cuisine", weakness: "Sushi", location: "Los Angeles" }
+  { name: "Ettore Boiardi", specialty: "Fusion Cuisine", weakness: "Sushi", location: "Los Angeles" }
 ];
 
 // TODO: Define a function to retrieve the first chef's information
